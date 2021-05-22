@@ -8,16 +8,6 @@
       <url>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</url>
       <link>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/posts/builtin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://colossal-pepe.github.io/false-productivity/posts/builtin/math-typesetting/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://colossal-pepe.github.io/false-productivity/posts/builtin/math-typesetting/</guid>
-      <description>A brief guide to setup KaTeX</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://colossal-pepe.github.io/false-productivity/posts/builtin/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
