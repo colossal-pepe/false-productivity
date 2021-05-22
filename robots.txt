@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://false-productivity.github.io/sitemap.xml

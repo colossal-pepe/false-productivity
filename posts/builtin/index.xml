@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PaperMod on False Productivity</title>
+    <link>https://false-productivity.github.io/posts/builtin/</link>
+    <description>Recent content in PaperMod on False Productivity</description>
+    <image>
+      <url>https://false-productivity.github.io/papermod-cover.png</url>
+      <link>https://false-productivity.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 08 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://false-productivity.github.io/posts/builtin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://false-productivity.github.io/posts/builtin/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://false-productivity.github.io/posts/builtin/math-typesetting/</guid>
+      <description>A brief guide to setup KaTeX</description>
+    </item>
+    
+  </channel>
+</rss>
