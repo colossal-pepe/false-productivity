@@ -2,29 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://colossal-pepe.github.io/false-productivity/categories/</loc>
+    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/first-post/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/misc/</loc>
+    <loc>https://colossal-pepe.github.io/false-productivity/categories/miscellaneous/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/posts/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/</loc>
-    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/archives/</loc>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/categories/</loc>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/posts/builtin/</loc>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/search/</loc>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/series/</loc>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/tags/</loc>
   </url>
 </urlset>
