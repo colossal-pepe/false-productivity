@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>False Productivity</title>
-    <link>https://colossal-pepe.github.io/false-productivity/</link>
-    <description>Recent content on False Productivity</description>
+    <title>Competitive Programming on False Productivity</title>
+    <link>https://colossal-pepe.github.io/false-productivity/categories/competitive-programming/</link>
+    <description>Recent content in Competitive Programming on False Productivity</description>
     <image>
       <url>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</url>
       <link>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/categories/competitive-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Little Dima and Equation</title>
       <link>https://colossal-pepe.github.io/false-productivity/posts/2021-5/little-dima-and-equation/</link>
@@ -18,17 +18,6 @@
       <guid>https://colossal-pepe.github.io/false-productivity/posts/2021-5/little-dima-and-equation/</guid>
       <description>Codeforces - Little Dima and Equation (460B) solution</description>
     </item>
-    
-    <item>
-      <title>First Post!</title>
-      <link>https://colossal-pepe.github.io/false-productivity/posts/2021-5/first-post/</link>
-      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://colossal-pepe.github.io/false-productivity/posts/2021-5/first-post/</guid>
-      <description>First post ever on False Productivity!</description>
-    </item>
-    
-    
     
   </channel>
 </rss>
