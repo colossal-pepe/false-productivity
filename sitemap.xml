@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/algebra/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+    <loc>https://colossal-pepe.github.io/false-productivity/tags/binomial-theorem/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/categories/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/combinatorial-intuition-for-binomial-theorem/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/tags/combinatorics/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/categories/mathematics/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/posts/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/tags/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/tags/algebra/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/categories/math/</loc>
@@ -17,13 +35,7 @@
     <loc>https://colossal-pepe.github.io/false-productivity/tags/math/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/quadratic-equation-roots/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/categories/competitive-programming/</loc>

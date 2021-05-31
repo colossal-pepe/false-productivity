@@ -9,7 +9,16 @@
       <link>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Combinatorial Intuition for the Binomial Theorem</title>
+      <link>https://colossal-pepe.github.io/false-productivity/posts/2021-5/combinatorial-intuition-for-binomial-theorem/</link>
+      <pubDate>Sun, 30 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://colossal-pepe.github.io/false-productivity/posts/2021-5/combinatorial-intuition-for-binomial-theorem/</guid>
+      <description>Rough proof of the formula for the binomial coefficient using simple counting</description>
+    </item>
+    
     <item>
       <title>Sum and Product of Roots in Quadratic Equations</title>
       <link>https://colossal-pepe.github.io/false-productivity/posts/2021-5/quadratic-equation-roots/</link>
