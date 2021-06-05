@@ -9,7 +9,16 @@
       <link>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 30 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/tags/combinatorics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kavi on Pairing Duty</title>
+      <link>https://colossal-pepe.github.io/false-productivity/posts/2021-6/kavi-on-pairing-duty/</link>
+      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://colossal-pepe.github.io/false-productivity/posts/2021-6/kavi-on-pairing-duty/</guid>
+      <description>Codeforces - Kavi on Pairing Duty (1528B) solution</description>
+    </item>
+    
     <item>
       <title>Combinatorial Intuition for the Binomial Theorem</title>
       <link>https://colossal-pepe.github.io/false-productivity/posts/2021-5/combinatorial-intuition-for-binomial-theorem/</link>
