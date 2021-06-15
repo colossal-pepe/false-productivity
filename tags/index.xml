@@ -9,7 +9,34 @@
       <link>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>math</title>
+      <link>https://colossal-pepe.github.io/false-productivity/tags/math/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://colossal-pepe.github.io/false-productivity/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>number theory</title>
+      <link>https://colossal-pepe.github.io/false-productivity/tags/number-theory/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://colossal-pepe.github.io/false-productivity/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bitwise operations</title>
+      <link>https://colossal-pepe.github.io/false-productivity/tags/bitwise-operations/</link>
+      <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://colossal-pepe.github.io/false-productivity/tags/bitwise-operations/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>combinatorics</title>
       <link>https://colossal-pepe.github.io/false-productivity/tags/combinatorics/</link>
@@ -25,24 +52,6 @@
       <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://colossal-pepe.github.io/false-productivity/tags/dynamic-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://colossal-pepe.github.io/false-productivity/tags/math/</link>
-      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://colossal-pepe.github.io/false-productivity/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>number theory</title>
-      <link>https://colossal-pepe.github.io/false-productivity/tags/number-theory/</link>
-      <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://colossal-pepe.github.io/false-productivity/tags/number-theory/</guid>
       <description></description>
     </item>
     

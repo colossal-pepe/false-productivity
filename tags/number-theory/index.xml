@@ -9,7 +9,16 @@
       <link>https://colossal-pepe.github.io/false-productivity/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://colossal-pepe.github.io/false-productivity/tags/number-theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Product 1 Modulo N</title>
+      <link>https://colossal-pepe.github.io/false-productivity/posts/2021-6/product-1-modulo-n/</link>
+      <pubDate>Sun, 13 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://colossal-pepe.github.io/false-productivity/posts/2021-6/product-1-modulo-n/</guid>
+      <description>Codeforces - Product 1 Modulo N (1514C) solution</description>
+    </item>
+    
     <item>
       <title>Kavi on Pairing Duty</title>
       <link>https://colossal-pepe.github.io/false-productivity/posts/2021-6/kavi-on-pairing-duty/</link>
