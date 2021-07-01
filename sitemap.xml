@@ -2,35 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/a-and-b/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/categories/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/categories/competitive-programming-codeforces/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/tags/math/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/number-theory/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/posts/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/tags/</loc>
+    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/hilberts-hotel/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://colossal-pepe.github.io/false-productivity/tags/number-theory/</loc>
+    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/product-1-modulo-n/</loc>
     <lastmod>2021-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/bitwise-operations/</loc>
-    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/little-girl-and-maximum-xor/</loc>
-    <lastmod>2021-06-07T00:00:00+00:00</lastmod>
+    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/baby-ehab-partitions-again/</loc>
+    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/tags/combinatorics/</loc>
     <lastmod>2021-06-04T00:00:00+00:00</lastmod>
@@ -49,21 +52,6 @@
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/categories/mathematics/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/algebra/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/quadratic-equation-roots/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/geometry/</loc>
-    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/view-angle/</loc>
-    <lastmod>2021-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/little-dima-and-equation/</loc>
-    <lastmod>2021-05-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/first-post/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
