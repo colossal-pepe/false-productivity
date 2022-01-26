@@ -10,7 +10,7 @@
 <meta itemprop="keywords" content="" /><meta property="og:title" content="First post!" />
 <meta property="og:description" content="First ever post on this blog. I hope you understood that from the title..." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://colossal-pepe.github.io/false-productivity/posts/2021/may-1/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://colossal-pepe.github.io/posts/2021/may-1/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-22T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-05-22T00:00:00+00:00" />
 
@@ -18,14 +18,14 @@
 <meta name="twitter:title" content="First post!"/>
 <meta name="twitter:description" content="First ever post on this blog. I hope you understood that from the title..."/>
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.io/false-productivity/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.io/false-productivity/css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.iocss/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.iocss/main.css" />
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://colossal-pepe.github.io/false-productivity/css/dark.css" />
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://colossal-pepe.github.iocss/dark.css" />
 
-	<script src="https://colossal-pepe.github.io/false-productivity/js/feather.min.js"></script>
+	<script src="https://colossal-pepe.github.iojs/feather.min.js"></script>
 	
-		<script src="https://colossal-pepe.github.io/false-productivity/js/main.js"></script>
+		<script src="https://colossal-pepe.github.iojs/main.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
 	
 	
@@ -59,13 +59,50 @@
 		<div class="header">
 	
 		<div class="avatar">
-			<a href="https://colossal-pepe.github.io/false-productivity/">
+			<a href="https://colossal-pepe.github.io">
 				<img src="/logo.png" alt="False Productivity" />
 			</a>
 		</div>
 	
-	<h1 class="site-title"><a href="https://colossal-pepe.github.io/false-productivity/">False Productivity</a></h1>
-	<div class="site-description"><p>&ldquo;The mountains of Hakone are the steepest in the world!&rdquo; - Haiji, Kakeru, King, Nico-chan-senpai, Yuki, Shindou, Joji, Jota, Musa, Prince from <em>Run With the Wind</em></p><nav class="nav social">
+	<h1 class="site-title"><a href="https://colossal-pepe.github.io">False Productivity</a></h1>
+	<div class="site-description">
+		<script>
+			function markdownify(s) {
+				l = s.split("");
+				let sq = 0, dq = 0, em = 0;
+				for (let i = 0; i < l.length; i++) {
+					let c = l[i];
+				    if (c == "'") {
+				    	sq += 1;
+				        if (sq % 2 == 1) l[i] = "&lsquo;";
+				        else l[i] = "&rsquo;";
+				    } else if (c == '"') {
+				    	dq++;
+				        if (dq % 2 == 1) l[i] = "&ldquo;";
+				        else l[i] = "&rdquo;";
+				    } else if (c == "*") {
+				    	em++;
+				        if (em % 2 == 1) l[i] = "<em>";
+				        else l[i] = "</em>";
+				    }
+				}
+				return l.join("");
+			}
+			const subtitles = [
+			"\"Mathematics is the science of what is clear by itself\" - Carl Jacobi",
+			"\"It is impossible to begin to learn that which one thinks one already knows.\" - Epictetus",
+			"\"It's hard being a single mother especially when you have no children and are a teenage male.\"\n- Zachary Chastain",
+			"\"Take charge of your destiny.\" - Rayquaza from *Pokemon*",
+			"\"We do have a lot in common. The same earth, the same air, the same sky. Maybe if we started looking at what’s the same, instead of looking at what’s different, well, who knows?\" - Meowth from *Pokemon*",
+			"\"I want to live! Take me out to the sea with you!\" - Nico Robin from *One Piece*",
+			"\"The mountains of Hakone are the steepest in the world!\" - Haiji, Kakeru, King, Nico-chan-senpai, Yuki, Shindou, Joji, Jota, Musa, Prince from *Run With the Wind*",
+			"\"Loving someone doesn't mean you don't hate them, it means you can't hate them.\" - Kim Jung Hwan from *Reply 1988*",
+			"\"I'll have two number 9s, a number 9 large, a number 6 with extra dip, a number 7, two number 45s, one with cheese, and a large soda.\" - Big Smoke from *GTA San Andreas*",
+			"\"I carry two swords. One of silver for creatures that roam the wild. One of steel for humans in their cities of stone. They’re both for monsters.\" - Geralt of Rivia from *The Witcher*"
+			];
+			document.write(`<p>${markdownify(subtitles[Math.floor(Math.random() * subtitles.length)])}</p>`);
+		</script>
+		<nav class="nav social">
 			<ul class="flat"><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
 		</nav>
 	</div>
@@ -74,27 +111,27 @@
 		<ul class="flat">
 			
 			<li>
-				<a href="/false-productivity/">Home</a>
+				<a href="/">Home</a>
 			</li>
 			
 			<li>
-				<a href="/false-productivity/posts">All posts</a>
+				<a href="/posts">All posts</a>
 			</li>
 			
 			<li>
-				<a href="/false-productivity/compsci">CompSci</a>
+				<a href="/compsci">CompSci</a>
 			</li>
 			
 			<li>
-				<a href="/false-productivity/mathematics">Mathematics</a>
+				<a href="/mathematics">Mathematics</a>
 			</li>
 			
 			<li>
-				<a href="/false-productivity/about">About</a>
+				<a href="/about">About</a>
 			</li>
 			
 			<li>
-				<a href="/false-productivity/tags">Tags</a>
+				<a href="/tags">Tags</a>
 			</li>
 			
 		</ul>
