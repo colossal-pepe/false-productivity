@@ -10,7 +10,7 @@
 <meta itemprop="keywords" content="mathematics,combinatorics," /><meta property="og:title" content="Elementary derivation of the binomial theorem" />
 <meta property="og:description" content="My attempt at deriving a formula for numbers of the pascal triangle." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://colossal-pepe.github.io/posts/2021/may-2/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://colossal-pepe.github.io/false-productivity/posts/2021/may-2/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-05-30T00:00:00+00:00" />
 <meta property="article:modified_time" content="2021-05-30T00:00:00+00:00" />
 
@@ -18,14 +18,14 @@
 <meta name="twitter:title" content="Elementary derivation of the binomial theorem"/>
 <meta name="twitter:description" content="My attempt at deriving a formula for numbers of the pascal triangle."/>
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.iocss/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.iocss/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.io/false-productivitycss/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://colossal-pepe.github.io/false-productivitycss/main.css" />
 
-        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://colossal-pepe.github.iocss/dark.css" />
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="https://colossal-pepe.github.io/false-productivitycss/dark.css" />
 
-	<script src="https://colossal-pepe.github.iojs/feather.min.js"></script>
+	<script src="https://colossal-pepe.github.io/false-productivityjs/feather.min.js"></script>
 	
-		<script src="https://colossal-pepe.github.iojs/main.js"></script>
+		<script src="https://colossal-pepe.github.io/false-productivityjs/main.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
 	
 	
@@ -59,12 +59,12 @@
 		<div class="header">
 	
 		<div class="avatar">
-			<a href="https://colossal-pepe.github.io">
+			<a href="https://colossal-pepe.github.io/false-productivity">
 				<img src="/logo.png" alt="False Productivity" />
 			</a>
 		</div>
 	
-	<h1 class="site-title"><a href="https://colossal-pepe.github.io">False Productivity</a></h1>
+	<h1 class="site-title"><a href="https://colossal-pepe.github.io/false-productivity">False Productivity</a></h1>
 	<div class="site-description">
 		<script>
 			function markdownify(s) {
@@ -111,27 +111,27 @@
 		<ul class="flat">
 			
 			<li>
-				<a href="/">Home</a>
+				<a href="/false-productivity/">Home</a>
 			</li>
 			
 			<li>
-				<a href="/posts">All posts</a>
+				<a href="/false-productivity/posts">All posts</a>
 			</li>
 			
 			<li>
-				<a href="/compsci">CompSci</a>
+				<a href="/false-productivity/compsci">CompSci</a>
 			</li>
 			
 			<li>
-				<a href="/mathematics">Mathematics</a>
+				<a href="/false-productivity/mathematics">Mathematics</a>
 			</li>
 			
 			<li>
-				<a href="/about">About</a>
+				<a href="/false-productivity/about">About</a>
 			</li>
 			
 			<li>
-				<a href="/tags">Tags</a>
+				<a href="/false-productivity/tags">Tags</a>
 			</li>
 			
 		</ul>
@@ -163,7 +163,7 @@
 <p>It is recommended to ponder the problem for some time before moving on.</p>
 <h2 id="solution-by-counting">Solution by counting</h2>
 <p>The first solution to the problem is quite elementary. There is a more novel (and faster to compute) solution which will be presented later but the more elementary solution is the basis of the derivation. The crucial observation here is that for any cell $(i, j)$ where $i &gt; 1$ and $j &gt; 1$, you can go to it from either $(i - 1, j)$ or $(i, j - 1)$ <strong>and</strong> any path that contains the cell $(i - 1, j)$ cannot contain $(i, j - 1)$. Hence, all the paths to $(i - 1, j)$ are different from all the paths to $(i, j - 1)$! This means that the total number of paths to $(i, j)$ is simply all the ways you can come to it from $(i - 1, j)$ plus all the ways you can come to it from $(i,j - 1)$.
-<img src="/binom-theorem-grid.png" alt="counting solution grid">
+<img src="/false-productivity/binom-theorem-grid.png" alt="counting solution grid">
 <em>Notice that all the cells at the sides have only 1 way to come to them, which is intuitive enough.</em></p>
 <p>More formally, let $f(i, j)$ be the number of paths to cell $(i, j)$. We can recursively define this like so:
 $$f(i, j) = \begin{cases} f(i - 1, j) + f(i, j - 1) &amp; \text{if $i &gt; 1$ and $j &gt; 1$} \\ 1 &amp; \text{otherwise} \end{cases}$$</p>
@@ -183,9 +183,9 @@ As can be seen from the picture, for getting to the 9th row and 5th column of th
 					
 						<ul class="flat">
 							
-							<li><a href="/tags/mathematics">mathematics</a></li>
+							<li><a href="/false-productivity/tags/mathematics">mathematics</a></li>
 							
-							<li><a href="/tags/combinatorics">combinatorics</a></li>
+							<li><a href="/false-productivity/tags/combinatorics">combinatorics</a></li>
 							
 						</ul>
 					
