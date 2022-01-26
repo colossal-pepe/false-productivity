@@ -2,69 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/a-and-b/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/categories/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/categories/competitive-programming-codeforces/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/math/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/</loc>
-    <lastmod>2021-06-17T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/hilberts-hotel/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/number-theory/</loc>
-    <lastmod>2021-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/product-1-modulo-n/</loc>
-    <lastmod>2021-06-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/baby-ehab-partitions-again/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/combinatorics/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/dynamic-programming/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-6/kavi-on-pairing-duty/</loc>
-    <lastmod>2021-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/tags/binomial-theorem/</loc>
+    <loc>http://example.org/posts/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/combinatorial-intuition-for-binomial-theorem/</loc>
+    <loc>http://example.org/tags/combinatorics/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/categories/mathematics/</loc>
+    <loc>http://example.org/posts/2021/may-2/</loc>
     <lastmod>2021-05-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/2021-5/first-post/</loc>
+    <loc>http://example.org/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/mathematics/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2021-05-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://example.org/posts/2021/may-1/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/categories/miscellaneous/</loc>
-    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2019-04-19T21:37:58+05:30</lastmod>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/archives/</loc>
+    <loc>http://example.org/compsci/</loc>
   </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/posts/builtin/</loc>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/search/</loc>
-  </url><url>
-    <loc>https://colossal-pepe.github.io/false-productivity/series/</loc>
+    <loc>http://example.org/mathematics/</loc>
   </url>
 </urlset>

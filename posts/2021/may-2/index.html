@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Elementary derivation of the binomial theorem - False Productivity</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Elementary derivation of the binomial theorem">
+<meta itemprop="description" content="My attempt at deriving a formula for numbers of the pascal triangle."><meta itemprop="datePublished" content="2021-05-30T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2021-05-30T00:00:00+00:00" />
+<meta itemprop="wordCount" content="575">
+<meta itemprop="keywords" content="mathematics,combinatorics," /><meta property="og:title" content="Elementary derivation of the binomial theorem" />
+<meta property="og:description" content="My attempt at deriving a formula for numbers of the pascal triangle." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/2021/may-2/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-05-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-05-30T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Elementary derivation of the binomial theorem"/>
+<meta name="twitter:description" content="My attempt at deriving a formula for numbers of the pascal triangle."/>
+<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://example.org/css/main.css" />
+
+        <link id="dark-scheme" rel="stylesheet" type="text/css" href="http://example.org/css/dark.css" />
+
+	<script src="http://example.org/js/feather.min.js"></script>
+	
+		<script src="http://example.org/js/main.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous">
+	
+	
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.js" integrity="sha384-VQ8d8WVFw0yHhCk5E8I86oOhv48xLpnDZx5T9GogA/Y84DcCKWXDmSDfn13bzFZY" crossorigin="anonymous"></script>
+	
+	
+	<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+	onload="renderMathInElement(document.body);"></script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			renderMathInElement(document.body, {
+			  
+			  
+			  delimiters: [
+				  {left: '$$', right: '$$', display: true},
+				  {left: '$', right: '$', display: false},
+				  {left: '\\(', right: '\\)', display: false},
+				  {left: '\\[', right: '\\]', display: true}
+			  ],
+			  
+			  throwOnError : false
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<div class="container wrapper">
+		<div class="header">
+	
+		<div class="avatar">
+			<a href="http://example.org/">
+				<img src="/logo.png" alt="False Productivity" />
+			</a>
+		</div>
+	
+	<h1 class="site-title"><a href="http://example.org/">False Productivity</a></h1>
+	<div class="site-description"><p>&ldquo;I&rsquo;ll have two number 9s, a number 9 large, a number 6 with extra dip, a number 7, two number 45s, one with cheese, and a large soda.&rdquo; - Big Smoke from <em>GTA San Andreas</em></p><nav class="nav social">
+			<ul class="flat"><li><a href="#" class="scheme-toggle" id="scheme-toggle"></a></li></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/compsci">CompSci</a>
+			</li>
+			
+			<li>
+				<a href="/mathematics">Mathematics</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post">
+			<div class="post-header">
+				
+					<div class="meta">
+						<div class="date">
+							<span class="day">30</span>
+							<span class="rest">May 2021</span>
+						</div>
+					</div>
+				
+				<div class="matter">
+					<h1 class="title">Elementary derivation of the binomial theorem</h1>
+				</div>
+			</div>
+					
+			<div class="markdown">
+				<h2 id="a-seemingly-unrelated-counting-problem">A seemingly unrelated counting problem</h2>
+<p>We&rsquo;ll start our journey with the following puzzle:</p>
+<blockquote>
+<p>Given is a $n \times m$ grid. The cell in the $i$th row and $j$th column is denoted as $(i, j)$. Count the number of paths from $(1,1)$ to $(n,m)$ if the only possible moves from a cell are move to the right or move below.</p>
+</blockquote>
+<p>It is recommended to ponder the problem for some time before moving on.</p>
+<h2 id="solution-by-counting">Solution by counting</h2>
+<p>The first solution to the problem is quite elementary. There is a more novel (and faster to compute) solution which will be presented later but the more elementary solution is the basis of the derivation. The crucial observation here is that for any cell $(i, j)$ where $i &gt; 1$ and $j &gt; 1$, you can go to it from either $(i - 1, j)$ or $(i, j - 1)$ <strong>and</strong> any path that contains the cell $(i - 1, j)$ cannot contain $(i, j - 1)$. Hence, all the paths to $(i - 1, j)$ are different from all the paths to $(i, j - 1)$! This means that the total number of paths to $(i, j)$ is simply all the ways you can come to it from $(i - 1, j)$ plus all the ways you can come to it from $(i,j - 1)$.
+<img src="/binom-theorem-grid.png" alt="counting solution grid">
+<em>Notice that all the cells at the sides have only 1 way to come to them, which is intuitive enough.</em></p>
+<p>More formally, let $f(i, j)$ be the number of paths to cell $(i, j)$. We can recursively define this like so:
+$$f(i, j) = \begin{cases} f(i - 1, j) + f(i, j - 1) &amp; \text{if $i &gt; 1$ and $j &gt; 1$} \\ 1 &amp; \text{otherwise} \end{cases}$$</p>
+<h2 id="a-more-novel-solution">A more novel solution</h2>
+<p>Changig our perspective <del>significantly</del> slightly, we can observe that each path from cell $(1, 1)$ to cell $(i, j)$ can be described as a sequence of $i - 1$ <em>R</em>s (<em>R</em> for right) and $j - 1$ <em>D</em>s (<em>D</em> for down) in some order. Framing the problem this way, it becomes apparent that the number of paths to $(i, j)$ is simply the number the of ways to choose positions for the <em>R</em>s (the <em>D</em> positions will be fixed after choosing the <em>R</em> positions). Let $g(i, j)$ be the answer for going from $(1, 1)$ to $(i, j)$. Therefore we have
+$$g(i, j) = {i - 1 \choose{i + j - 2}} = {j - 1 \choose{i + j - 2}}$$
+<em>There are $i - 1$ <em>R</em>s and the total path length is $i - 1 + j - 1$</em></p>
+<h2 id="equivalence">Equivalence</h2>
+<p>Now that the fun puzzle is solved, we are equipped to connect the dots. Obviously, $f(i, j) = g(i, j)$. But notice the similarity between the counting solution and the way each number of pascal&rsquo;s triangle is obtained. It&rsquo;s actually the same! Rotating the above figure 45 degrees clockwise and laying it on the triangle, we get the following:
+<img src="/binom-theorem-grid-triangle.png" alt="grid on pascal&rsquo;s triangle">
+As can be seen from the picture, for getting to the 9th row and 5th column of the triangle, a $5 \times 5$ grid can be constructed. For the number in row $r$ and column $c$ of the triangle, a $r + 1 - c \times c$ grid can be constructed. And so the problem of &ldquo;find the number in row $r$ and column $c$ in pascal&rsquo;s triangle&rdquo; can be completely translated into the problem stated at the top of this page.</p>
+
+			</div>
+
+			<div class="tags">
+				
+					
+						<ul class="flat">
+							
+							<li><a href="/tags/mathematics">mathematics</a></li>
+							
+							<li><a href="/tags/combinatorics">combinatorics</a></li>
+							
+						</ul>
+					
+				
+			</div></div>
+	</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div>2022  © Copyright notice |  <a href="https://github.com/knadh/hugo-ink">Ink</a> theme on <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</body>
+</html>
