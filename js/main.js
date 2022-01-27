@@ -35,6 +35,7 @@ function darkscheme(toggle, container) {
   toggle.innerHTML = feather.icons.sun.toSvg();
   toggle.className = "dark";
   container.className = "dark";
+  document.getElementById("logo").src = "/false-productivity/logo2.png";
 }
 
 function lightscheme(toggle, container) {
@@ -42,4 +43,5 @@ function lightscheme(toggle, container) {
   toggle.innerHTML = feather.icons.moon.toSvg();
   toggle.className = "light";
   container.className = "";
+  document.getElementById("logo").src = "/false-productivity/logo.png"
 }

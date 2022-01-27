@@ -4,13 +4,13 @@ html.dark body {
 }
 
 html.dark ::-moz-selection {
-  background: #9375fd;
+  background: #FFB0E2;
   color: #fff;
   text-shadow: none
 }
 
 html.dark ::selection {
-  background: #9375fd;
+  background: #FFB0E2;
   color: #fff;
   text-shadow: none
 }
@@ -20,7 +20,7 @@ html.dark hr {
 }
 
 html.dark blockquote {
-  border-color: #ddd;
+  border-color: #FFB0E2;
 }
 
 html.dark h1,
@@ -32,8 +32,8 @@ html.dark h6 {
   color: #ddd;
 }
 
-html.dark a,a:hover {
-  color: #9375fd;
+html.dark a {
+  color: #FFB0E2;
   text-decoration: none;
 }
 
@@ -49,17 +49,23 @@ html.dark .site-description a:hover {
 
 html.dark a:hover {
   opacity: 0.8;
+  border-bottom: 2px solid #FFB0E2;
 }
 
-html.dark .post-tags .tags a {
-  border: 1px solid #ddd;
-  color: #ddd;
+html.dark .post .tags a {
+  border: 1px solid #FFB0E2;
+  color: #FFB0E2;
 }
 
 html.dark .site-title a {
   color: #ddd;
   text-decoration: none !important;
 }
+
+  html.dark .site-title a:hover {
+    opacity: 1;
+    border-bottom: 3px solid #FFB0E2;
+  }
 
 html.dark .header nav,
 html.dark .footer {
