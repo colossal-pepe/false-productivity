@@ -15,8 +15,8 @@
       
       <guid>https://colossal-pepe.github.io/false-productivity/posts/2021/may-2/</guid>
       <description>A seemingly unrelated counting problem We&amp;rsquo;ll start our journey with the following puzzle:
- Given is a $n \times m$ grid. The cell in the $i$th row and $j$th column is denoted as $(i, j)$. Count the number of paths from $(1,1)$ to $(n,m)$ if the only possible moves from a cell are move to the right or move below.
- It is recommended to ponder the problem for some time before moving on.</description>
+Given is a $n \times m$ grid. The cell in the $i$th row and $j$th column is denoted as $(i, j)$. Count the number of paths from $(1,1)$ to $(n,m)$ if the only possible moves from a cell are move to the right or move below.
+It is recommended to ponder the problem for some time before moving on.</description>
     </item>
     
     <item>
